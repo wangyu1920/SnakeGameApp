@@ -9,10 +9,10 @@
     <string name="g">g</string>
     <string name="r">r</string>
     <string name="s">a</string>
-    <string name="introduction3">蛇的刷新时间/默认800ms</string>
+    <string name="introduction3">蛇的刷新时间/默认500ms</string>
     <string name="warning">注意，地图是800*800像素的，800/格数为整数</string>
-    <string name="introduction4">地图格数/默认10</string>
-    <string name="_20">10</string>
-    <string name="_800">800</string>
+    <string name="introduction4">地图格数/默认12</string>
+    <string name="_20">12</string>
+    <string name="_800">500</string>
     <string name="introduction_new">食物的颜色</string>
 </resources>
