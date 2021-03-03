@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    android:paddingStart="50dp"
+    android:paddingEnd="50dp"
+    tools:context=".childActivityset">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/introduction" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/introduction1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="@string/s"
+            android:id="@+id/textOfBoundColors"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:text="@string/ff"
+            android:inputType="number" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="@string/r"
+            android:id="@+id/textOfBoundColorr"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:text="@string/ff"
+            android:inputType="number" />
+        <EditText
+            android:hint="@string/g"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/textOfBoundColorg"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:text="@string/ff"
+            android:inputType="number" />
+        <EditText
+            android:hint="@string/b"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/textOfBoundColorb"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:text="@string/ff"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/introduction2" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="@string/s"
+            android:id="@+id/textOfSnakeColors"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:text="@string/ff"
+            android:inputType="number" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="@string/r"
+            android:id="@+id/textOfSnakeColorr"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:text="@string/ff"
+            android:inputType="number" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="@string/g"
+            android:id="@+id/textOfSnakeColorg"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:text="@string/_00"
+            android:inputType="number" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="@string/b"
+            android:id="@+id/textOfSnakeColorb"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:autofillHints="0"
+            android:importantForAutofill="no"
+            android:text="@string/_00"
+            android:inputType="number" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/introduction_new" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="@string/s"
+            android:id="@+id/textOfFoodColors"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:text="@string/ff"
+            android:inputType="number" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="@string/r"
+            android:id="@+id/textOfFoodColorr"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:text="@string/ff"
+            android:inputType="number" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="@string/g"
+            android:id="@+id/textOfFoodColorg"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:text="@string/ff"
+            android:inputType="number" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="@string/b"
+            android:id="@+id/textOfFoodColorb"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:autofillHints="0"
+            android:importantForAutofill="no"
+            android:text="@string/_00"
+            android:inputType="number" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/introduction3" />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="@string/introduction3"
+        android:id="@+id/textOfTime"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:importantForAutofill="no"
+        android:text="@string/_800" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/warning" />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="@string/introduction4"
+        android:id="@+id/textOfDiv"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:importantForAutofill="no"
+        android:text="@string/_20" />
+
+</LinearLayout>
