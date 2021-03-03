@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">贪吃蛇</string>
+    <string name="introduction">参数设置，请按照要求修改，不合理的数据将导致程序崩溃 如果有数据没有填写会导致设置无效  \n argb格式样例：白色：255,255,255,255</string>
+    <string name="introduction1">背景颜色</string>
+    <string name="ff">255</string>
+    <string name="introduction2">蛇的颜色</string>
+    <string name="_00">0</string>
+    <string name="b">b</string>
+    <string name="g">g</string>
+    <string name="r">r</string>
+    <string name="s">a</string>
+    <string name="introduction3">蛇的刷新时间/默认800ms</string>
+    <string name="warning">注意，地图是800*800像素的，800/格数为整数</string>
+    <string name="introduction4">地图格数/默认10</string>
+    <string name="_20">10</string>
+    <string name="_800">800</string>
+    <string name="introduction_new">食物的颜色</string>
+</resources>
